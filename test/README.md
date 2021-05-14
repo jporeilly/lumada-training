@@ -2,7 +2,7 @@
 sort: 1
 ---
 
-# Lumda Courses
+# Lumada Courses
 
 ```
 {% raw %}{% include list.liquid all=true %}{% endraw %}

@@ -1,26 +1,31 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+title: jekyll-rtd-theme
+description: Just another documentation theme compatible with GitHub Pages
 
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
+theme: null
 
-# Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
+# debug:
+#   compress: true
+#   dist: false
+#   shortcodes: true
 
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+readme_index:
+  with_frontmatter: true
 
-paginate:         5
+plugins:
+  - jemoji
+  - jekyll-avatar
+  - jekyll-mentions
 
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/jporeilly/lumada-training
+exclude:
+  - Makefile
+  - CNAME
+  - LICENSE
+  - update.sh
+  - Gemfile
+  - Gemfile.lock
+  - requirements.txt
+  - node_modules
+  - package.json
+  - package-lock.json
+  - webpack.config.js
+  - jekyll-rtd-theme.gemspec
